@@ -1,0 +1,17 @@
+	proof_value	proof_smape	proof_vector	domain	state	iter_id	proof_test
+0	2.66E-07	22.5167	Gender	Demographics	"PA,Pennsylvania"	1	Chi-Square
+1	0.560789122	16.0182	Age Bin	Demographics	"PA,Pennsylvania"	1	Chi-Square
+2	1	16.0182	Age Cont Var	Demographics	"PA,Pennsylvania"	1	T-Test
+3	0	93.8201	Race	Demographics	"PA,Pennsylvania"	1	Chi-Square
+4	0.005207939	88.6438	Condition	Diagnosis	"PA,Pennsylvania"	1	Chi-Square
+5	0	99.9964	Medication	Medication	"PA,Pennsylvania"	1	Chi-Square
+6	0	99.4222	Zip Code	Demographics	"PA,Pennsylvania"	1	Chi-Square
+7	0	55.4838	Condition length	Diagnosis	"PA,Pennsylvania"	1	Chi-Square
+8	0	10	Gender	Demographics	"PA,Pennsylvania"	2	Chi-Square
+9	0	20	Age Bin	Demographics	"PA,Pennsylvania"	2	Chi-Square
+10	0	30	Age Cont Var	Demographics	"PA,Pennsylvania"	2	T-Test
+11	0	40	Race	Demographics	"PA,Pennsylvania"	2	Chi-Square
+12	0	50	Condition	Diagnosis	"PA,Pennsylvania"	2	Chi-Square
+13	0	60	Medication	Medication	"PA,Pennsylvania"	2	Chi-Square
+14	0	70	Zip Code	Demographics	"PA,Pennsylvania"	2	Chi-Square
+15	0	0	Condition length	Diagnosis	"PA,Pennsylvania"	2	Chi-Square
