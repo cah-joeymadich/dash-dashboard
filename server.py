@@ -8,7 +8,7 @@ import plotly.graph_objs as go
 app = dash.Dash()
 
 # parse data file into dataframe structure
-df = pd.read_csv(r'./data.csv', sep='\t')
+df = pd.read_csv(r'./data/data.csv', sep='\t')
 
 
 def build_query_string(smape_data, iterations=[]):
