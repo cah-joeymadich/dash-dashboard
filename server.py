@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.graph_objs as go
 
-app = dash.Dash()
+app = dash.Dash(__name__)
 
 # parse data file into dataframe structure
 df = pd.read_csv(r'./data/data.csv', sep='\t')
