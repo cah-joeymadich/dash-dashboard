@@ -13,7 +13,13 @@ app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"
 # Loading screen CSS
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/brPBPO.css"})
 
-app.layout = html.H1('On Dasher!')
+app.layout = html.Div(children=[
+    html.H1(children='On Dasher!'),
+
+    html.Div(children='''
+        Dash: A web application framework for Python.
+    ''')
+])
 
 if __name__ == '__main__':
     app.run_server(debug=True)
